@@ -10,6 +10,7 @@ namespace mentorapphomedynamic.ViewModels
         public List<Feature> Features { get; set; }
         public List<Trainer> Trainers { get; set; }
         public List<SocialMedia> SocialMedias { get; set; }
+        public List <PopularCourse> PopularCourses { get; set; }
         
     }
 }

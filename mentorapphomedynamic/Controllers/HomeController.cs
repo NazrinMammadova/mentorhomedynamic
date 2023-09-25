@@ -22,6 +22,7 @@ namespace mentorapphomedynamic.Controllers
             homeVM.WhyUss=_context.WhyUss.ToList();
             homeVM.Features = _context.Features.ToList();
             homeVM.Trainers = _context.Trainers.Include(t => t.SocialMedias).ToList();
+            homeVM.PopularCourses=_context.PopularCourse.Include(p=>p.Trainer).ToList();
         
             return View(homeVM);
         }

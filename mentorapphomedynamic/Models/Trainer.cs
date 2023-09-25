@@ -11,5 +11,6 @@
         public List<SocialMedia> SocialMedias { get; set; }
 
 
+
     }
 }

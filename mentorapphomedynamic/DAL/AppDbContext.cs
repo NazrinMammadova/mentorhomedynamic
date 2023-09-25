@@ -15,6 +15,7 @@ namespace mentorapphomedynamic.DAL
         public DbSet<Feature> Features { get; set; }
         public DbSet<SocialMedia> SocialMedias { get; set; }
         public DbSet<Trainer> Trainers { get; set; }
+        public DbSet <PopularCourse> PopularCourse { get; set; }    
 
     }
 }
